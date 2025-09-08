@@ -1,0 +1,192 @@
+
+body {
+  margin:0;
+  padding: 0;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  color: rgb(14, 14, 14);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top:0; left:0; right:0; bottom:0;
+  background: rgba(0,0,0,0,3);
+z-index: -1
+;}
+h1{
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f9fffa;
+}
+
+.card {
+  
+}
+
+.homepage {
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+background: rgba(255,255,255,0.4);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box box-shadow: 0 4px 10px
+  border-radius: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: inline-block
+  align-items: flex-end;
+  text-align: center;
+  gap: 15px;
+  background-color: #a8ecab;
+  padding: 20px 40px;
+  border-radius: 12px;
+}
+
+
+.button-garden1 {
+  display: inline block;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  outline:none;
+  padding: 12px 28px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Segoe UI', sans-serif;
+transition: 0.3s ease;
+
+}
+.button-garden1:hover{
+  background: #fcfdfc
+  transform: scale(1.05);
+}
+
+body{
+  font-family: Arial, sans-serif;
+  background-color: rgb (133, 201, 133);
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  margin: 20px 0;
+  color: beige;
+}
+
+.gallery-cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  width: 220px;
+  background: white;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+}
+
+.card-image{
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 12px;
+
+}
+
+.herbs {
+  background-image: url(images/herbs.jpg);
+}
+
+.trees {
+  background-image: url(images/trees.jpg);
+
+}
+
+.flowers {
+  background-image: url(images/flowers.jpg);
+}
+
+
+.btn{
+  display:inline-block;
+  text-decoration: none;
+  background-color: #68af68;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+ margin-top: 10px;
+ font-size: 16px;
+ font-weight: bold;
+ transition: 0.3;
+ cursor: pointer;
+ box-shadow: 0 4px 8px;
+}
+
+.btn:hover {
+  background-color: #597959;
+  transform: scale(1.05);
+box-shadow: 0 6px 12px ;}
+
+body {
+  background: rgba(255,255,255,0.4);
+  backdrop-filter: blur(1px);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box box-shadow: 0 4px 10px
+}
+
+.title{
+  margin: 20px 0;
+  color:rgb(250, 253, 252);
+
+}
+
+.grid-table{
+  display: grid;
+  grid-template-columns: repeat(6,150px);
+gap: 10px;
+justify-content: center;
+padding: 20px;
+}
+
+.grid-cell {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+
+} 
+
+.grid-cell img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+
+}
+
+.grid-cell img:hover{
+  transform: scale(1.1)
+}
